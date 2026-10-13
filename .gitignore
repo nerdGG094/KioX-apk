@@ -1,0 +1,16 @@
+
+# Segredos — NUNCA versionar (chave da conta de serviço do Firebase, certificados,
+# variáveis de ambiente). A chave do KioX fica só no servidor do Elo, em data\segredos.
+*firebase-adminsdk*.json
+*adminsdk*.json
+*serviceAccount*.json
+*service-account*.json
+segredos/
+*.pem
+*.p12
+*.jks
+*.keystore
+keystore.properties
+.env
+.env.*
+!.env.example
